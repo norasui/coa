@@ -1,0 +1,17 @@
+---
+title: "How to use Compound Operators"
+date: "2024-01-23"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to use Compound Operators}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\usepackage[utf8]{inputenc}
+---
+
+The operator `%+=%` increments a variable by a given value:
+
+```{r}
+library("coa")
+x <- 1
+x %+=% 10
+x

@@ -16,5 +16,8 @@ Roxygen: list(markdown = TRUE)
 Imports:
   checkmate
 Suggests:
+  rmarkdown,
+  knitr,
   testthat
 RoxygenNote: 7.3.0
+VignetteBuilder: knitr
